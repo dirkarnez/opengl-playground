@@ -12,8 +12,7 @@
  *
  **************************/
 
-LRESULT CALLBACK WndProc (HWND hWnd, UINT message,
-WPARAM wParam, LPARAM lParam);
+LRESULT CALLBACK WndProc (HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
 void EnableOpenGL (HWND hWnd, HDC *hDC, HGLRC *hRC);
 void DisableOpenGL (HWND hWnd, HDC hDC, HGLRC hRC);
 
